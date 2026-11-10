@@ -1,0 +1,32 @@
+{
+  "name": "ServiceFind - Flutter & FastAPI",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "codespace",
+  "workspaceFolder": "/workspaces/ServiceFind",
+  "containerEnv": {
+    "PATH": "/opt/flutter:/opt/venv/bin:${containerEnv:PATH}",
+    "CHROME_EXECUTABLE": "/usr/bin/chromium-browser"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "dart.flutterPath": "/opt/flutter",
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "editor.formatOnSave": true,
+        "files.encoding": "utf8"
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "runArgs": [],
+  "mounts": []
+}

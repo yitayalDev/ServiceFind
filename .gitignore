@@ -1,0 +1,34 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+*.iml
+*.lock
+.android/
+.idea/
+.metadata
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv/
+env/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

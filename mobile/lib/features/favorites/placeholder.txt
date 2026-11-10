@@ -1,0 +1,1 @@
+placeholder: favorites feature module (implemented in a later step)

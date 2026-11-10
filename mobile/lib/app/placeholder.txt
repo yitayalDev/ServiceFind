@@ -1,0 +1,1 @@
+placeholder: app shell configuration (routes, theme) implemented in a later step

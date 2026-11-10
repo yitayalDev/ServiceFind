@@ -1,0 +1,19 @@
+# Core framework
+fastapi==0.162.3
+uvicorn[standard]==0.54.0
+
+# Configuration (pydantic-settings provides BaseSettings)
+pydantic-settings==2.10.1
+
+# MongoDB driver: Motor is the async MongoDB driver built on PyMongo.
+# AsyncIOMotorClient provides non-blocking DB access for FastAPI async routes.
+motor==3.6.2
+
+# Environment variables
+python-dotenv==1.1.0
+
+# Testing
+pytest==8.4.1
+httpx==0.28.1
+pytest-asyncio==0.24.0
+mongomock==5.0.1

@@ -1,0 +1,1 @@
+placeholder: app configuration (API endpoints, environment flags) implemented in a later step
